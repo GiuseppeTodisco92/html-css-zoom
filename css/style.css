@@ -17,6 +17,9 @@ body {
 .container {
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 /*----------------
@@ -51,6 +54,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
+  padding-bottom: 20px;
   color: white;
 }
 
@@ -69,5 +73,39 @@ header {
 }
 
 /*----------------
-      FOOTER
+      MAIN
 ------------------*/
+
+.box-web-cam {
+  width: calc((100% / 6) - 5px);
+  height: 120px;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mic-red {
+  color: #cc3c33;
+  padding-right: 3px;
+}
+
+.name {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 3px 5px;
+  margin: 5px 5px;
+  border-radius: 3px;
+}
+
+.back-img-fruit {
+  background-image: url(../img/fruit.jpg);
+}
+
+.back-img-city {
+  background-image: url(../img/city.jpg);
+  background-size: contain;
+}
+/*----------------
+      FOOTER
+------------------*/ ;
