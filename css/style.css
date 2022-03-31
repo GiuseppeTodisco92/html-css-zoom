@@ -1,0 +1,73 @@
+/*----------------
+      RESET
+------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+}
+
+/*----------------
+      COMMON
+------------------*/
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/*----------------
+      BUTTON
+------------------*/
+.btn {
+  background-color: #0a0b0b;
+  border: none;
+  padding: 0px 5px;
+  border-radius: 3px;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+  padding: 0px 5px;
+}
+
+.btn-green {
+  color: #67d669;
+}
+
+.btn-white {
+  color: white;
+}
+
+/*----------------
+      HEADER
+------------------*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+  color: white;
+}
+
+.header-left,
+.record-button {
+  display: flex;
+}
+
+.header-left {
+  column-gap: 10px;
+}
+
+.record-button {
+  background-color: #0a0b0b;
+  border-radius: 3px;
+}
+
+/*----------------
+      FOOTER
+------------------*/
