@@ -142,19 +142,10 @@ footer button {
 .footer-left,
 .footer-midle,
 .footer-right {
-  gap: 15px;
+  gap: 20px;
   display: flex;
   width: (100% / 3);
-}
-
-.footer-left {
-}
-
-.footer-midle {
   justify-content: center;
-}
-
-.footer-right {
 }
 
 .box-button {
