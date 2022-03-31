@@ -53,6 +53,11 @@ body {
   font-weight: bold;
   padding: 5px 15px;
 }
+
+footer button {
+  font-size: 25px;
+  color: #a8a8a8;
+}
 /*----------------
       HEADER
 ------------------*/
@@ -107,6 +112,7 @@ header {
 
 .back-img-fruit {
   background-image: url(../img/fruit.jpg);
+  background-size: contain;
 }
 
 .back-img-city {
@@ -120,17 +126,12 @@ header {
 footer {
   font-size: 15px;
   display: flex;
-  height: 80px;
+
   justify-content: space-between;
   background-color: #1b1b1b;
   align-items: center;
   margin-top: 30px;
-  padding: 0px 15px;
-  color: #a8a8a8;
-}
-
-footer button {
-  font-size: 25px;
+  padding: 15px 15px;
   color: #a8a8a8;
 }
 
@@ -153,4 +154,14 @@ footer button {
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+}
+
+.text-button {
+  font-size: 15px;
+}
+
+footer .btn-transparent:hover {
+  color: green;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
 }
